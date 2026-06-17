@@ -293,7 +293,7 @@
 
     /* Mobile nav */
     .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; }
-    .hamburger span { width: 24px; height: 2px; background: var(--text-primary); border-radius: 2px; transition: all 0.3s; }
+    .hamburger span { width: 24px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
 
     /* Mobile menu — hidden by default on all sizes, shown only via .open class inside 768px media query */
     .mobile-menu { display: none; }
@@ -795,7 +795,7 @@
         transition: opacity 0.3s ease, transform 0.3s ease;
       }
       .mobile-menu.open { display: flex; opacity: 1; transform: translateY(0); }
-      .mobile-menu a { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; text-transform: uppercase; }
+      .mobile-menu a { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; text-transform: uppercase; color: #fff; }
       .about-container, .contact-grid, .footer-grid { grid-template-columns: 1fr; }
       .form-row { grid-template-columns: 1fr; }
       .about-image { order: -1; }
